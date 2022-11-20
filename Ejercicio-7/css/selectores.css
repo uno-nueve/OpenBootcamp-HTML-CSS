@@ -16,5 +16,5 @@
 }
 
 .button:hover::before {
-    content: "Hecho!";
+    content: "¡Hecho!";
 }
