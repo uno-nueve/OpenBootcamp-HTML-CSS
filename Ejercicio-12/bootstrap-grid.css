@@ -1,0 +1,27 @@
+.row div {
+    margin: .25rem;
+}
+
+.col {
+    background-color: #cb997e;
+}
+
+.col-sm {
+    background-color: #ddbea9;
+}
+
+.col-md {
+    background-color: #ffe8d6;
+}
+
+.col-lg {
+    background-color: #b7b7a4;
+}
+
+.col-xl {
+    background-color: #a5a58d;
+}
+
+.col-xxl {
+    background-color: #6b705c;
+}
