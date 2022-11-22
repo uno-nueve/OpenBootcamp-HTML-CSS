@@ -1,27 +1,23 @@
 .row div {
-    margin: .25rem;
+    border: 1px solid black;
 }
 
 .col {
     background-color: #cb997e;
 }
 
-.col-sm {
+.col-sm-6 {
     background-color: #ddbea9;
 }
 
-.col-md {
+.col-md-4 {
     background-color: #ffe8d6;
 }
 
-.col-lg {
+.col-lg-3 {
     background-color: #b7b7a4;
 }
 
-.col-xl {
+.col-xl-2 {
     background-color: #a5a58d;
-}
-
-.col-xxl {
-    background-color: #6b705c;
 }
