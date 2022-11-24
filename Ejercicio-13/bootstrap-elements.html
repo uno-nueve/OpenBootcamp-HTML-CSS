@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos de Interés en Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container py-4">
+        <div class="row g-3">
+            <div id="section-1" class="col-md-12 col-lg-6">
+                <div class="bg-light p-4 rounded-3 mt-2">
+                    <div class="container-fluid py-5">
+                        <h1 class="fw-bold display-5 mb-4">Esto es un Jumbotron</h1>
+                        <p class="col-md-8 fs-4">Al hacer click en el botón de abajo se abrirá una ventana modal.</p>
+                        <button class="btn btn-primary btn-lg mt-4" data-bs-toggle="modal" data-bs-target="#modal">Haz click aquí</button>
+                        <div class="modal fade" id="modal" data-bs-backdrop="static">
+                            <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content">
+                                        <h5 class="modal-header">¡Hola!</h5>
+                                        <div class="modal-body">
+                                            <p>Soy una ventana modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button class="btn btn-outline-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="section-2" class="col-md-12 col-lg-6">
+                <form action="">
+                    <h3 class="display-6 mb-3 text-nowrap">Formulario de contacto</h3>
+                <div class="row g-3 align-items-center">
+                    <div class="form-floating mb-3 col-md-6 col-sm-12">
+                        <input type="text" id="name" class="form-control bg-light" placeholder="tu-nombre">
+                        <label for="name">Nombre</label>
+                    </div>
+                    <div class="form-floating mb-3 col-md-6 col-sm-12">
+                        <input type="number" id="number" class="form-control bg-light" placeholder="tu-numero">
+                        <label for="number">Número de teléfono</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea id="mensaje" class="form-control bg-light" placeholder="mensaje" style="min-height: 10.5rem;"></textarea>
+                        <label for="mensaje">Escriba su mensaje</label>
+                    </div>
+                    <button class="btn btn-outline-primary">Enviar</button>
+                </div>
+                </form>
+            </div>
+            <div id="section-3" class=" col-md-12 py-4">
+                <div class="card bg-dark">
+                    <div class="row g-0">
+                        <div class="card-header text-center">
+                            <p class="fw-bold fs-5 mt-2 text-bg-dark">Cat Dev</p>
+                        </div>
+                        <div class="col-md-3 py-2">
+                            <img src="https://images.ctfassets.net/rt5zmd3ipxai/4UXfvnIXBBl92rIm4lyUyk/19628eb113c5fca41a48109dffd0c2ca/ServiceCardstelemedicine.png?fit=fill&fm=jpg&fl=progressive&h=668&w=750" alt="gato-usando-una-pc" class="img-fluid rounded-4 p-2">
+                        </div>
+                        <div class="col-md-1"></div>
+                        <div class="col-md-6">
+                            <div class="card-body">
+                                <p class="card-text text-bg-dark fs-5">¿Sabe usted qué es lo que me recuerda su persona? Pues un computador. Se está usted programando a sí mismo.</p>
+                                <p class="card-text fst-italic text-bg-dark text-end"><small class="text-muted"><strong>-"Las manzanas"</strong>(1969)<strong>Agatha Christie</strong></small></p>
+                            </div>
+                        </div>
+                        <div class="card-footer rounded-bottom ">
+                            <p class="mt-2 fst-italic text-end text-bg-dark">Email de contacto: cat.dev@ejemplo.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</html>
